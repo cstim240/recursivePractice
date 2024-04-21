@@ -8,6 +8,7 @@
 // input: number, output: array containing the Fibonacci sequence up to the input number
 // example: fib(8) = [0, 1, 1, 2, 3, 5, 8, 13]
 
+//time complexity: O(2^n), space complexity: O(n)
 function fib(n){
     let sequence = [0, 1];
     for (let i = 2; i < n; i++){
